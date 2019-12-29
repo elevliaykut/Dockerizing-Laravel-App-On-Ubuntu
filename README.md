@@ -1,11 +1,11 @@
 
 ## Dockerizing Laravel Application With Nginx,Mysql on Ubuntu
 
+![Docker_Compose](images/docker-img.jpg)
+
 Bir laravel projesini sanallaştırma teknolojilerini kullanarak nasıl ayağa kaldırırız?
 
 Bu projede bir tane docker composer oluşturup bir container'da web sunucusu olarak ngnix, bir başka container'da db olarak mysql, bir başka container'da da uygulamamız'ın koşmasını hedefliyoruz.Sonuç olarak projemizde docker composer kullanarak toplam 3 tane ayrı container kullanmış olacağız ve bunlar bir birleri ile etkilşim halinde olmuş olacaklar.
-
-![Docker_Compose](images/docker-img.jpg)
 
 ## 1-Laravel Kütüphanesini Projeye İmport Edelim
 
