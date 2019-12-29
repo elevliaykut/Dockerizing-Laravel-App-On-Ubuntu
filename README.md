@@ -25,5 +25,6 @@ Composer'ı kullanabilmek için projemizin ana dizininde kurulumu yapalım.
 
 Projemizde kullacağımız image 'leri tanımlamak için Docker-Compose dosyası oluşturalım.
 
+
     - $ nano ~/laravel-app/docker-compose.yml
  
