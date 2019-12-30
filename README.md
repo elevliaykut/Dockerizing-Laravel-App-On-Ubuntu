@@ -43,6 +43,10 @@ Docker ayağa kalkacağı zaman proje path'inin belirlenmesi ,sistem paketlerini
 
 ## 6- Projemize php klasörü oluşturalım.
 
+![Docker](images/php-file-logo.png)
+
+
+mkdir ~/Dockerizing-Laravel-App-On-Ubuntu/php
 
 
 
