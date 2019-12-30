@@ -33,4 +33,8 @@ Projemizde kullacağımız image 'leri tanımlamak için Docker-Compose dosyası
 ## 4-Docker Compose Dosyasını Projemizin Niteliklerine Göre Düzenleyelim.
 
 Projemizde kullanmamız gereken 3 tane container var.Bu container'ları oluşturucağımız docker-compose.yml dosyasında tanımlayıp sonra build edeceğiz.
+
+## 5- Docker File dosyasını OLuşturalım.
+
+![Docker](images/docker-file.jpeg)
  
