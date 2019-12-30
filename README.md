@@ -64,6 +64,12 @@ Proje dizinine dosya upload etmek için izin verilen maximum boyutlar set edilmi
 
 İlk önce /nginx/conf.d dizinini oluşturalım.
 
+    - $ mkdir -p ~/Dockerizing-Laravel-App-On-Ubuntu/nginx/conf.d
+
+Bu dizinin altına nginx web server'ı yapılandırmak için app.conf dosyasını oluşturdum.
+
+    - $ nano ~/laravel-app/nginx/conf.d/app.conf
+
 
 
 
