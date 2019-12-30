@@ -41,6 +41,8 @@ Projemizde kullanmamız gereken 3 tane container var.Bu container'ları oluştur
 
 Docker ayağa kalkacağı zaman proje path'inin belirlenmesi ,sistem paketlerinin güncellenmesi,Composer'ın kurulumu,cache 'in temizlenmesi projedeki dosyaların root izni olmadan yürütülmesi için gerekli tanımlamaların ve yetkilerin verildiği dosyadır.
 
+
+
 ## 6- Projemize php klasörü oluşturalım.
 
 ![Docker](images/php-file-logo.png)
@@ -55,6 +57,10 @@ Proje dizinine dosya upload etmek için izin verilen maximum boyutlar set edilmi
     post_max_size=40M
 
 ## 7- Nginx Web Server Yapılandırma
+
+![Docker](images/nginx.png)
+
+İlk önce /nginx/conf.d dizinini oluşturalım.
 
 
 
