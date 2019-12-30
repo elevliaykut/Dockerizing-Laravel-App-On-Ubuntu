@@ -45,8 +45,18 @@ Docker ayağa kalkacağı zaman proje path'inin belirlenmesi ,sistem paketlerini
 
 ![Docker](images/php-file-logo.png)
 
+- mkdir ~/Dockerizing-Laravel-App-On-Ubuntu/php
 
-mkdir ~/Dockerizing-Laravel-App-On-Ubuntu/php
+Proje dizinine dosya upload etmek için izin verilen maximum boyutlar set edilmiştir.
+
+- nano ~/laravel-app/php/local.ini
+
+    upload_max_filesize=40M;
+    post_max_size=40M
+
+
+
+
 
 
 
