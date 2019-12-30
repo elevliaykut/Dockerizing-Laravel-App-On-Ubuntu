@@ -45,7 +45,7 @@ Docker ayağa kalkacağı zaman proje path'inin belirlenmesi ,sistem paketlerini
 
 ![Docker](images/php-file-logo.png)
 
-- mkdir ~/Dockerizing-Laravel-App-On-Ubuntu/php
+- $ mkdir ~/Dockerizing-Laravel-App-On-Ubuntu/php
 
 Proje dizinine dosya upload etmek için izin verilen maximum boyutlar set edilmiştir.
 
@@ -53,6 +53,10 @@ Proje dizinine dosya upload etmek için izin verilen maximum boyutlar set edilmi
 
     upload_max_filesize=40M;
     post_max_size=40M
+
+## 7- Nginx Web Server Yapılandırma
+
+
 
 
 
