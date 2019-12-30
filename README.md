@@ -41,7 +41,9 @@ Projemizde kullanmamız gereken 3 tane container var.Bu container'ları oluştur
 
 Docker ayağa kalkacağı zaman proje path'inin belirlenmesi ,sistem paketlerinin güncellenmesi,Composer'ın kurulumu,cache 'in temizlenmesi projedeki dosyaların root izni olmadan yürütülmesi için gerekli tanımlamaların ve yetkilerin verildiği dosyadır.
 
+![Docker](images/docker-build.png)
 
+Aslında Dockerfile içersinde oluşturduğum her bir component(mysql,apache,ngnix..) Dockerfile derlendikten sonra adı,id'si gibi özellikleri olan birer image 'dir.
 
 ## 6- Projemize php klasörü oluşturalım.
 
