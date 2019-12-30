@@ -39,7 +39,11 @@ Projemizde kullanmamız gereken 3 tane container var.Bu container'ları oluştur
 ![Docker](images/docker-file.jpeg)
 
 
-Docker ayağa kalkacağı zaman proje path'inin belirlenmesi ,sistem paketlerinin güncellenmesi,Composer'ın kurulumu,cache 'in temizlenmesi projedeki dosyaların root izni olmadan yürütülmesi için gerekli tanımlamaların ve yetkilerin verildiği dosyadır. 
+Docker ayağa kalkacağı zaman proje path'inin belirlenmesi ,sistem paketlerinin güncellenmesi,Composer'ın kurulumu,cache 'in temizlenmesi projedeki dosyaların root izni olmadan yürütülmesi için gerekli tanımlamaların ve yetkilerin verildiği dosyadır.
+
+## 6- Projemize php klasörü oluşturalım.
+
+
 
 
  
