@@ -82,6 +82,11 @@ Bu dizinin altına mysql'i yapılandırmak my.cnf dosyasını oluşturalım.
 
 ## 9- Dockerfile build edelim.
 
+![Docker](images/docker-build-composer.png)
+
+Eğer projenizde docker-compose 'ı ilk kez build ediyorsanız bu biraz zaman alıcaktır.
+
+    - $ docker-compose up -d
 
 
 
