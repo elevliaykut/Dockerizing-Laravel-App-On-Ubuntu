@@ -98,7 +98,9 @@ Eğer projenizde docker-compose 'ı ilk kez build ediyorsanız bu biraz zaman al
 
 ## 11- Uygulamamızı çalıştırıp kontrol ediyoruz.
 
-Uygulamamız tüm containerlarla iletişim halinde çalışıyor.
+Uygulamamız oluşturmuş olduğumuz 3 tane container ile etkileşim halinde çalışıyor.
+
+
 
 
 
