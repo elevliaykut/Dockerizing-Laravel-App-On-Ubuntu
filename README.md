@@ -90,7 +90,11 @@ Eğer projenizde docker-compose 'ı ilk kez build ediyorsanız bu biraz zaman al
 
 ## 10- Projemizde Oluşturduğumuz containerlar'ı ve image'leri listeleyelim.
 
+    - $ docker container list
 
+
+
+    - $ docker image list
 
 
 
