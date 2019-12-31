@@ -70,6 +70,14 @@ Bu dizinin altına nginx web server'ı yapılandırmak için app.conf dosyasın�
 
     - $ nano ~/laravel-app/nginx/conf.d/app.conf
 
+## 8- Oluşturduğumuz Containerlara bağlanma
+
+    - docker-compose exec db bash
+
+## 9- Container içinde database'e bağlanma
+
+    - mysql -u root -p
+
 
 
 
