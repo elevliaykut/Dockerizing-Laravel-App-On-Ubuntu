@@ -100,6 +100,19 @@ Eğer projenizde docker-compose 'ı ilk kez build ediyorsanız bu biraz zaman al
 
 Uygulamamız oluşturmuş olduğumuz 3 tane container ile etkileşim halinde çalışıyor.
 
+![Docker](images/laravel-localhost.png)
+
+## 12- Oluşturduğumuz Container'larda root olma.
+
+Oluşturuduğumuz her container'ın birer ip adresi vardır.Bu ip adresiyle birlikte sannallaştırdığımız sunuculara 22 portu ile ssh bağlantısı kurabiliriz.Ancak bu noktada bir sanal switch oluşturulup bu sanal switch üzerinden ssh yapılmalıdır.
+
+Sunucuda root iken containerlara aşağıdaki komut satırı ile root olabiliriz.
+
+    - $ docker-compose exec db bash
+
+
+
+
 
 
 
