@@ -72,6 +72,8 @@ Bu dizinin altına nginx web server'ı yapılandırmak için app.conf dosyasın�
 
 ## 8- Mysql Yapılandırma
 
+![Docker](images/mysql.jpg)
+
 Mysql dizinini oluşturalım.
 
     - $ mkdir ~/laravel-app/mysql
