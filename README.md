@@ -90,11 +90,19 @@ Eğer projenizde docker-compose 'ı ilk kez build ediyorsanız bu biraz zaman al
 
 ## 10- Projemizde Oluşturduğumuz containerlar'ı ve image'leri listeleyelim.
 
-    - $ docker container list
+![Docker](images/docker-container.png)
+
+    - $ docker container list //Containerları listeleme
+
+    - $ docker image list  //İmageleri listeleme
+
+## 11- Uygulamamızı çalıştırıp kontrol ediyoruz.
+
+Uygulamamız tüm containerlarla iletişim halinde çalışıyor.
 
 
 
-    - $ docker image list
+
 
 
 
