@@ -110,6 +110,14 @@ Sunucuda root iken containerlara aşağıdaki komut satırı ile root olabiliriz
 
     - $ docker-compose exec db bash
 
+Burada db sanal sunucuların isimleri aslında.Eğer sadece uygulamanın koştuğu sanal sunucuya bağlanmak istersek 
+
+    - $ doceker-compose exec app bash
+
+yazmamız yeterli olacaktır.
+
+
+
 
 
 
