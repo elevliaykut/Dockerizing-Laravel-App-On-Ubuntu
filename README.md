@@ -80,6 +80,10 @@ Mysql dizinini oluşturalım.
 
 Bu dizinin altına mysql'i yapılandırmak my.cnf dosyasını oluşturalım.
 
+## 9- Dockerfile build edelim.
+
+
+
 
 
 
