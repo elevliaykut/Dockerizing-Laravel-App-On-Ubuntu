@@ -1,6 +1,13 @@
 
 ## Dockerizing Laravel Application With Nginx,Mysql on Ubuntu
 
+### Technologies used;
+
+- Laravel
+- Docker for containerization
+- Mysql
+- HTML5,CSS3,Javascript
+
 ![Docker_Compose](images/laravel-docker.png)
 
 Bir laravel projesini sanallaştırma teknolojilerini kullanarak nasıl ayağa kaldırırız?
