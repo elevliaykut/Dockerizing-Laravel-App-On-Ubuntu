@@ -8,7 +8,7 @@
 - Mysql
 - HTML5,CSS3,Javascript
 
-![Docker_Compose](images/laravel-docker.png)
+<img src="./images/laravel-docker.png" width="350" height="200"/>
 
 Bir laravel projesini sanallaştırma teknolojilerini kullanarak nasıl ayağa kaldırırız?
 
@@ -16,8 +16,7 @@ Bu projede bir tane docker composer oluşturup bir container'da web sunucusu ola
 
 ## 1-Laravel Kütüphanesini Projeye İmport Edelim
 
-
-![Docker_Compose](images/laravel-logo.jpg)
+<img src="./images/laravel-logo.jpg" width="350" height="200"/>
 
 Aşağıdaki komut satırı ile laravel kütüphanesini Projemize clone edelim.
 
@@ -43,8 +42,7 @@ Projemizde kullanmamız gereken 3 tane container var.Bu container'ları oluştur
 
 ## 5- Docker File dosyasını OLuşturalım.
 
-![Docker](images/docker-file.jpeg)
-
+<img src="./images/docker-file.jpeg" width="100" height="100"/>
 
 Docker ayağa kalkacağı zaman proje path'inin belirlenmesi ,sistem paketlerinin güncellenmesi,Composer'ın kurulumu,cache 'in temizlenmesi projedeki dosyaların root izni olmadan yürütülmesi için gerekli tanımlamaların ve yetkilerin verildiği dosyadır.
 
@@ -54,7 +52,7 @@ Aslında Dockerfile içersinde oluşturduğum her bir component(mysql,apache,ngn
 
 ## 6- Projemize php klasörü oluşturalım.
 
-![Docker](images/php-file-logo.png)
+<img src="./images/php-file-logo.png" width="100" height="100"/>
 
 - $ mkdir ~/Dockerizing-Laravel-App-On-Ubuntu/php
 
@@ -67,7 +65,7 @@ Proje dizinine dosya upload etmek için izin verilen maximum boyutlar set edilmi
 
 ## 7- Nginx Web Server Yapılandırma
 
-![Docker](images/nginx.png)
+<img src="./images/nginx.png" width="100" height="100"/>
 
 İlk önce /nginx/conf.d dizinini oluşturalım.
 
@@ -79,7 +77,7 @@ Bu dizinin altına nginx web server'ı yapılandırmak için app.conf dosyasın�
 
 ## 8- Mysql Yapılandırma
 
-![Docker](images/mysql.jpg)
+<img src="./images/mysql.jpg" width="350" height="200"/>
 
 Mysql dizinini oluşturalım.
 
